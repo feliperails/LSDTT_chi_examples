@@ -1,0 +1,14 @@
+ENVI
+description = {
+Xian.bil}
+samples = 5288
+lines   = 1822
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 2
+interleave = bsq
+byte order = 0
+map info = {UTM, 1, 1, 341644.004342847, 3825449.83767028, 30, 30, 49, North,WGS-84}
+band names = {
+Band 1}

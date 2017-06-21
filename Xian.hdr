@@ -12,3 +12,4 @@ byte order = 0
 map info = {UTM, 1, 1, 341644.004342847, 3825449.83767028, 30, 30, 49, North,WGS-84}
 band names = {
 Band 1}
+data ignore value = -9999

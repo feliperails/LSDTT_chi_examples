@@ -1,10 +1,10 @@
 # Parameters for performing chi analysis
 # Comments are preceeded by the hash symbol
-# Documentation can be found here: 
+# Documentation can be found here:
 # http://lsdtopotools.github.io/LSDTT_book/#_chi_analysis_part_3_getting_chi_gradients_for_the_entire_landscape
 
 # These are parameters for the file i/o
-# IMPORTANT: You MUST make the write directory: the code will not work if it doens't exist. 
+# IMPORTANT: You MUST make the write directory: the code will not work if it doens't exist.
 read path: /LSDTopoTools/Topographic_projects/LSDTT_chi_examples
 write path: /LSDTopoTools/Topographic_projects/LSDTT_chi_examples
 read fname: Xian
@@ -21,4 +21,6 @@ test_drainage_boundaries: true
 
 # The data that you want printed to file
 write hillshade: true
-
+print_baselevel_keys: true
+print_source_keys: true
+print_basin_raster: true

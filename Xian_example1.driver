@@ -5,8 +5,8 @@
 
 # These are parameters for the file i/o
 # IMPORTANT: You MUST make the write directory: the code will not work if it doens't exist.
-read path: /home/s0923330/GitHub/LSDTT_chi_examples
-write path: /home/s0923330/GitHub/LSDTT_chi_examples
+read path: /LSDTopoTools/Topographic_projects/LSDTT_chi_examples
+write path: /LSDTopoTools/Topographic_projects/LSDTT_chi_examples
 read fname: Xian
 write fname: Xian
 channel heads fname: NULL

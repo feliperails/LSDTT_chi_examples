@@ -1,12 +1,12 @@
 # Parameters for performing chi analysis
 # Comments are preceeded by the hash symbol
-# Documentation can be found here: 
+# Documentation can be found here:
 # https://lsdtopotools.github.io/LSDTopoTools_ChiMudd2014/
 
 # These are parameters for the file i/o
-# IMPORTANT: You MUST make the write directory: the code will not work if it doens't exist. 
-read path: /LSDTopoTools/Topographic_projects/LSDTT_chi_examples
-write path: /LSDTopoTools/Topographic_projects/LSDTT_chi_examples
+# IMPORTANT: You MUST make the write directory: the code will not work if it doens't exist.
+read path: /home/s0923330/GitHub/LSDTT_chi_examples
+write path: /home/s0923330/GitHub/LSDTT_chi_examples
 read fname: Xian
 write fname: Xian
 channel heads fname: NULL
@@ -25,4 +25,3 @@ find_complete_basins_in_window: true
 # The data that you want printed to file
 write hillshade: true
 print_basin_raster: true
-print_baselevel_keys: true

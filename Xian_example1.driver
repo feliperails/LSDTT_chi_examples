@@ -1,10 +1,10 @@
 # Parameters for performing chi analysis
 # Comments are preceeded by the hash symbol
-# Documentation can be found here:
-# http://lsdtopotools.github.io/LSDTT_book/#_chi_analysis_part_3_getting_chi_gradients_for_the_entire_landscape
+# Documentation can be found here: 
+# https://lsdtopotools.github.io/LSDTopoTools_ChiMudd2014/
 
 # These are parameters for the file i/o
-# IMPORTANT: You MUST make the write directory: the code will not work if it doens't exist.
+# IMPORTANT: You MUST make the write directory: the code will not work if it doens't exist. 
 read path: /LSDTopoTools/Topographic_projects/LSDTT_chi_examples
 write path: /LSDTopoTools/Topographic_projects/LSDTT_chi_examples
 read fname: Xian
@@ -15,12 +15,14 @@ channel heads fname: NULL
 min_slope_for_fill: 0.0001
 
 # Parameters for selecting channels and basins
-threshold_contributing_pixels: 20000
+threshold_contributing_pixels: 5000
 minimum_basin_size_pixels: 100000
-test_drainage_boundaries: true
+maximum_basin_size_pixels: 400000
+test_drainage_boundaries: false
+find_largest_complete_basins: false
+find_complete_basins_in_window: true
 
 # The data that you want printed to file
 write hillshade: true
-print_baselevel_keys: true
-print_source_keys: true
 print_basin_raster: true
+print_baselevel_keys: true

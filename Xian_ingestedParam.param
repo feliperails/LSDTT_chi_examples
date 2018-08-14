@@ -1,0 +1,123 @@
+# Here are the paramters ingested and set by the parameter parser
+# The file names and paths are: 
+read path: /LSDTopoTools/Topographic_projects/LSDTT_chi_examples/
+read fname: Xian
+write path: /LSDTopoTools/Topographic_projects/LSDTT_chi_examples/
+write fname: Xian
+CHeads file: NULL
+read extension: bil
+write extension: bil
+
+# ====================================
+# Now for parameters read from file.
+# If an expected parameter is not here check your spelling.
+find_complete_basins_in_window: true
+find_largest_complete_basins: false
+maximum_basin_size_pixels: 400000
+min_slope_for_fill: 0.0001
+minimum_basin_size_pixels: 100000
+print_basin_raster: true
+test_drainage_boundaries: false
+threshold_contributing_pixels: 5000
+
+# ====================================
+# Now for the default parameters.
+A_0: 1
+BaselevelJunctions_file: NULL
+CHeads_file: NULL
+MCMC_chain_links: 5000
+MCMC_movern_analysis: false
+MCMC_movern_maximum: 1.5
+MCMC_movern_minimum: 0.05
+MC_point_fractions: 5
+MC_point_iterations: 1000
+MZS_threshold: 0.5
+N_SA_bootstrap_iterations: 1000
+SA_bootstrap_retain_node_prbability: 0.5
+SA_vertical_interval: 20
+TVD_lambda: -1
+TVD_lambda_bchi: 10000
+basic_Mchi_regression_nodes: 11
+basin_outlet_csv: NULL
+bootstrap_SA_data: false
+burn_data_csv_column_header: burned_data
+burn_raster_prefix: NULL
+burn_raster_to_csv: false
+calculate_MLE_collinearity: false
+calculate_MLE_collinearity_with_points: false
+calculate_MLE_collinearity_with_points_MC: false
+check_chi_maps: false
+collinearity_MLE_sigma: 1000
+convert_csv_to_geojson: false
+delta_movern: 0.1
+disorder_use_uncert: false
+estimate_best_fit_movern: false
+extend_channel_to_node_before_receiver_junction: true
+force_A0_knickpoint_analysis: 1
+force_all_basins: false
+force_n_iteration_knickpoint_analysis: 20
+force_skip_knickpoint_analysis: 2
+get_basins_from_outlets: false
+kp_node_combining: 10
+ksn_knickpoint_analysis: false
+litho_raster: NULL
+log_A_bin_width: 0.1
+lower_outlet_elevation_threshold: 0
+m_over_n: 0.5
+mask_chi_coordinate_raster_with_basins: false
+max_MC_point_fraction: 0.5
+maximum_elevation: 30000
+maximum_segment_length: 100000
+minimum_elevation: 0
+minimum_segment_length: 10
+movern_disorder_test: false
+movern_residuals_test: false
+n_iterations: 20
+n_movern: 8
+n_nodes_to_visit: 10
+only_check_parameters: false
+only_take_largest_basin: false
+only_use_mainstem_as_reference: true
+precipitation_fname: NULL
+print_DrainageArea_raster: false
+print_baselevel_keys: false
+print_basic_M_chi_map_to_csv: false
+print_channels_to_csv: false
+print_chi_coordinate_raster: false
+print_chi_data_maps: false
+print_chi_no_discharge: false
+print_discharge_raster: false
+print_fill_raster: false
+print_junction_index_raster: false
+print_junctions_to_csv: false
+print_litho_info: false
+print_profiles_fxn_movern_csv: false
+print_raster_without_seas: false
+print_segmented_M_chi_map_to_csv: false
+print_segments: false
+print_segments_raster: false
+print_simple_chi_map_to_csv: false
+print_simple_chi_map_with_basins_to_csv: false
+print_slope_area_data: false
+print_source_keys: false
+print_sources_to_csv: false
+print_sources_to_raster: false
+print_stream_order_raster: false
+raster_is_filled: false
+remove_basins_by_outlet_elevation: false
+remove_seas: true
+sample_ID_column_name: IDs
+search_radius_nodes: 100
+segment_slope_area_data: false
+sigma: 20
+skip: 2
+slope_area_minimum_segment_length: 3
+start_movern: 0.1
+std_dev_coeff_stepped_kp: 4
+stepped_combining_window: 10
+target_nodes: 80
+threshold_pixels_for_chi: 0
+upper_outlet_elevation_threshold: 25
+use_precipitation_raster_for_chi: false
+window_stepped_kp_detection: 100
+write_hillshade: false
